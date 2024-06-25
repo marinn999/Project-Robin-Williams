@@ -1,0 +1,46 @@
+<section class="form-section" id="section-contact">
+    <div class="form-section-left">
+        <h2 class="form-section-title">Let’s get started</h2>
+        <p class="form-section-text">Now that you know a lot about me, let me know if you are interested to work with
+            me.</p>
+    </div>
+    <form class="form-section-right">
+        <label class="form-section-label" for="user-name">Name</label>
+        <input class="form-section-input" id="user-name" name="user-name" type="text" pattern="[a-zA-Zа-яА-ЯІіЇїЄєҐґʼ]+"
+            title="Name" required>
+
+            <label class="form-section-label" for="user-email">Email</label>
+                <div class="input-container">
+                    <input class="form-section-input" type="email" id="user-email" name="user-email" pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+                     />
+                    <svg class="checkmark" width="16px" height="16px">
+                        <use href="../img/symbol-defs.svg#icon-checkmark"></use>
+                    </svg>
+                </div>
+                <p class="value-email">Invalid email, try again</p>
+        
+
+
+        <label class="form-section-label" for="user-message">Message</label>
+        <textarea class="form-section-comment" 
+        name="user-comment" 
+        id="user-comment"
+        ></textarea>
+        <button class="form-section-btn" type="submit">Let’s get started</button>
+
+        <div class="modal-overlay"></div>
+        <div class="modal">
+            <button class="modal-close-btn" type="button">
+                <svg class="modal-close-btn-icon" width="24" height="24">
+                    <use href="../img/symbol-defs.svg#icon-close"></use>
+                </svg>
+            </button>
+            <h3 class="modal-title">Thank you for your interest in cooperation!</h3>
+            <p class="modal-text">
+                The manager will contact you shortly to discuss further details and
+                opportunities for cooperation. Please stay in touch.
+            </p>
+        </div>
+        </div>
+    </form>
+</section>

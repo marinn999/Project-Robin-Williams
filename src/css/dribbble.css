@@ -1,0 +1,139 @@
+/* =============================  Dribbble MOBILE STYLES ========================== */
+.dribble-section-desktop-img,
+.dribble-section-tablet-img {
+    display: none;
+}
+
+.dribble-section-mobile-img {
+    display: block;
+}
+
+.dribbble-section {
+    background-color: #000000;
+    padding: 64px 20px;
+}
+
+.dribbble-section-title {
+    color: var(--White, #FFF);
+    font-family: Sen;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dribbble-section-text {
+    color: var(--Light-Grey, #8491A0);
+    width: 320px;
+    font-family: Sen;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 27px */
+    margin-top: 24px;
+
+}
+
+.dribbble-section-link {
+    display: inline-block;
+    position: relative;
+
+    color: var(--White, #FFF);
+    font-family: Sen;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+    padding-bottom: 5px;
+    margin-top: 100px;
+}
+
+.dribbble-section-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #FFF;
+
+}
+
+.dribble-img-container {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 516px;
+    width: 320px;
+    background: var(--Level-1, #181823);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.dribble-section-icon {
+    margin: 12px 16px;
+}
+
+.dribble-img {
+    display: flex;
+    align-items: flex-end;
+}
+
+/* =============================  /Dribbble MOBILE STYLES ========================== */
+
+/* =============================  Dribbble TABLET STYLES ========================== */
+@media screen and (min-width: 768px) {
+
+    .dribble-section-desktop-img,
+    .dribble-section-mobile-img {
+        display: none;
+    }
+
+    .dribble-section-tablet-img {
+        display: block;
+    }
+
+    .dribbble-section {
+        padding: 80px 40px;
+    }
+
+    .dribbble-section-text {
+        width: 688px;
+    }
+
+    .dribble-img-container {
+        margin-top: 120px;
+        height: 516px;
+        width: 688px;
+    }
+}
+
+/* =============================  /Dribbble TABLET STYLES ========================== */
+
+/* =============================  Dribbble DESKTOP STYLES ========================== */
+@media screen and (min-width: 1158px) {
+
+    .dribble-section-tablet-img,
+    .dribble-section-mobile-img {
+        display: none;
+    }
+
+    .dribble-section-desktop-img {
+        display: block;
+    }
+
+    .dribbble-section {
+        padding: 120px 72px;
+    }
+
+    .dribbble-section-text {
+        width: 636px;
+    }
+
+    .dribble-img-container {
+        height: 676px;
+        width: 1076px;
+    }
+}

@@ -1,0 +1,134 @@
+/* ============= EXPERIENCE MOBILE STYLES =============== */
+.experience-section {
+    background-color: #000000;
+    padding: 48px 20px;
+}
+
+.work-experience {
+    color: var(--Light-Grey, #8491A0);
+    font-family: Sen;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.companies-experience {
+    width: 320px;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    color: var(--White, #FFF);
+    font-family: Sen;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.companies-experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.company-number {
+    width: 126px;
+    color: #8491A0;
+    font-family: Sen;
+    font-size: 117px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.company-name {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 16px;
+    color: var(--White, #FFF);
+    font-family: Sen;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    width: 320px;
+}
+
+.green {
+    color: var(--Green_Accent, #3CC74E);
+}
+
+.blue {
+    color: var(--Blue_Accent, #609BFF);
+}
+
+.pink {
+    color: var(--Pink_Accent, #E95D90);
+}
+
+.company-description {
+    width: 320px;
+    color: var(--Light-Grey, #8491A0);
+    font-family: Sen;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* ============= /EXPERIENCE MOBILE STYLES =============== */
+
+/* ============= EXPERIENCE TABLET STYLES =============== */
+@media screen and (min-width: 768px) {
+    .experience-section {
+        padding: 80px 40px;
+    }
+
+    .companies-experience {
+        width: 688px;
+        font-size: 55px;
+    }
+
+    .companies-experience-list {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .company-name {
+        width: 197px;
+        margin-bottom: 24px;
+    }
+
+    .company-description {
+        width: 197px;
+    }
+}
+
+/* ============= /EXPERIENCE TABLET STYLES =============== */
+
+/* ============= EXPERIENCE DESKTOP STYLES =============== */
+@media screen and (min-width: 1158px) {
+    .experience-section {
+        padding: 120px 72px;
+    }
+
+    .companies-experience {
+        width: 690px;
+    }
+
+    .companies-experience-list {
+        gap: 72px;
+    }
+
+    .company-name {
+        margin-bottom: 22px;
+        width: 368px;
+    }
+
+    .company-description {
+        width: 368px;
+    }
+}
+
+/* ============= /EXPERIENCE DESKTOP STYLES =============== */

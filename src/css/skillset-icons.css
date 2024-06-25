@@ -1,0 +1,50 @@
+/* ==========================  ICONS MOBILE STYLES ========================== */
+.icons-section {
+    background-color: #000000;
+}
+
+.icons-section-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icons-section-list-item {
+    width: 180px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--Level-1, #181823);
+}
+
+/* ==========================  /ICONS MOBILE STYLES ========================== */
+
+/* ==========================  ICONS TABLET STYLES ========================== */
+@media screen and (min-width: 768px) {
+    .icons-section-list-item {
+        width: 384px;
+    }
+}
+
+/* ==========================  /ICONS TABLET STYLES ========================== */
+
+/* ==========================  ICONS DESKTOP STYLES ========================== */
+@media screen and (min-width: 1158px) {
+    .icons-section {
+        background-color: #000000;
+        overflow-x: auto;
+    }
+
+    .icons-section-list {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+
+    }
+
+    .icons-section-list-item {
+        flex-shrink: 0;
+        width: 340px;
+    }
+}

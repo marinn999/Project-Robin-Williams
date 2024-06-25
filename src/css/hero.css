@@ -1,0 +1,102 @@
+/* ========================== MOBILE HERO STYLES======================== */
+.hero-tablet-img,
+.hero-desktop-img {
+    display: none;
+}
+
+.hero-div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 48px 20px;
+}
+
+.hero-title {
+    width: 320px;
+    color: var(--White, #FFF);
+    font-family: Sen;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-title-span {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.hero-text {
+    width: 320px;
+    color: var(--White, #FFF);
+    font-family: Sen;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* ========================== /MOBILE HERO STYLES======================== */
+
+/* ========================== TABLET HERO STYLES======================== */
+@media screen and (min-width: 768px) {
+
+    .hero-mobile-img,
+    .hero-desktop-img {
+        display: none;
+    }
+
+    .hero-tablet-img {
+        display: block;
+    }
+
+    .hero {
+        padding: 80px 40px 84px 0;
+        display: flex;
+    }
+
+    .hero-div {
+        position: absolute;
+        margin-left: 320px;
+        margin-top: 85px;
+        gap: 32px;
+        padding: 0;
+    }
+
+    .hero-title {
+        width: 408px;
+        font-size: 56px;
+    }
+
+    .hero-text {
+        width: 408px;
+    }
+}
+
+/* ========================== /TABLET HERO STYLES======================== */
+
+/* ========================== DESKTOP HERO STYLES======================== */
+@media screen and (min-width: 1158px) {
+
+    .hero-mobile-img,
+    .hero-tablet-img {
+        display: none;
+    }
+
+    .hero-desktop-img {
+        display: block;
+    }
+
+    .hero-div {
+        margin-left: 662px;
+        margin-top: 141px;
+    }
+
+    .hero-title {
+        width: 738px;
+        font-size: 78px;
+    }
+
+    .hero-text {
+        width: 738px;
+    }
+}

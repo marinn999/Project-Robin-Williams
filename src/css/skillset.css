@@ -1,0 +1,135 @@
+/* ==========================  SKILLSET MOBILE STYLES ======================== */
+
+.skillset-section {
+    background-color: #000000;
+    padding: 78px 20px 64px 20px;
+}
+
+.skillset-div-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.skillset-title {
+    color: #FFF;
+    font-family: Sen;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skillset-text {
+    color: var(--Light-Grey, #8491A0);
+    font-family: Sen;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 320px;
+}
+
+.skillset-list {
+    padding-top: 69px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.skillset-list-item-title {
+    color: var(--White, #FFF);
+    padding-top: 24px;
+    padding-bottom: 12px;
+    font-family: Sen;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    /* 36px */
+}
+
+.skillset-list-item-text {
+    color: var(--Light-Grey, #8491A0);
+    width: 320px;
+    font-family: Sen;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+/* ==========================  /SKILLSET MOBILE STYLES ======================== */
+
+
+/* ==========================  SKILLSET TABLET STYLES ======================== */
+@media screen and (min-width: 768px) {
+    .skillset-section {
+        padding: 80px 40px;
+    }
+
+    .skillset-div-left {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .skillset-title {
+        font-size: 55px;
+    }
+
+    .skillset-text {
+        width: 688px;
+    }
+
+    .skillset-list {
+        padding-top: 48px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 48px;
+        column-gap: 72px;
+    }
+
+    .skillset-list-item-title {
+        color: var(--White, #FFF);
+        padding-top: 24px;
+        padding-bottom: 12px;
+        font-family: Sen;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 150%;
+        /* 36px */
+    }
+
+    .skillset-list-item-text {
+        color: var(--Light-Grey, #8491A0);
+        width: 284px;
+        font-family: Sen;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        /* 24px */
+    }
+}
+
+/* ==========================  /SKILLSET TABLET STYLES ======================== */
+
+/* ==========================  SKILLSET DESKTOP STYLES ======================== */
+@media screen and (min-width: 1158px) {
+    .skillset-section {
+        padding: 120px 72px;
+        height: 664px;
+        display: flex;
+        justify-content: space-between;
+        gap: 48px;
+    }
+
+    .skillset-text {
+        width: 368px;
+    }
+
+    .skillset-list {
+        padding: 0;
+    }
+
+    .skillset-list-item-text {
+        width: 368px;
+    }
+}
